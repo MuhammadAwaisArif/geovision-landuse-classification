@@ -1,0 +1,10 @@
+*.pth
+*.tar.gz
+data/
+drive/
+sample_data/
+.ipynb_checkpoints/
+__pycache__/
+*.zip
+Images/
+artifacts/

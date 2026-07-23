@@ -1,0 +1,20 @@
+{
+  "data_dir": "/content/Images",
+  "output_dir": "/content/artifacts",
+  "split_file": "artifacts/split_seed42.json",
+  "seed": 42,
+  "test_fraction": 0.20,
+  "validation_fraction_of_train": 0.10,
+  "num_workers": 2,
+  "max_epochs": 18,
+  "early_stopping_patience": 5,
+  "cnn_batch_size": 32,
+  "transformer_batch_size": 16,
+  "cnn_learning_rate": 0.001,
+  "vit_learning_rate": 0.00003,
+  "hybrid_learning_rate": 0.0001,
+  "weight_decay": 0.00001,
+  "scheduler_step_size": 5,
+  "scheduler_gamma": 0.5
+}
+
