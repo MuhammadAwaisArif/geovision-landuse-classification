@@ -31,13 +31,13 @@ To ensure rigorous performance evaluation without data leakage, the **Vision Tra
 
 ## 📈 Baseline Architecture Confusion Matrices
 
-### 1. Vision Transformer (ViT)
+### 1. Vision Transformer (ViT) Confusion Matrix
 ![ViT Baseline Matrix](results/vit_baseline_confusion_matrix.png)
 
-### 2. ResNet50 (CNN)
+### 2. CNN Baseline Confusion Matrix
 ![CNN Baseline Matrix](results/cnn_baseline_confusion_matrix.png)
 
-### 3. EfficientNet (Hybrid)
+### 3. CNN-Transformer Hybrid Confusion Matrix
 ![Hybrid Baseline Matrix](results/hybrid_baseline_confusion_matrix.png)
 
 ---
