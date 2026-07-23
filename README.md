@@ -8,8 +8,6 @@ GeoVision is an end-to-end deep learning framework for remote sensing land-use c
 
 To ensure rigorous performance evaluation without data leakage, the **Vision Transformer (ViT)** backbone was evaluated using **10-Fold Stratified Cross-Validation**.
 
-### ViT 10-Fold Accuracy Breakdown
-
 | Fold | Accuracy (%) |
 | :--- | :---: |
 | **Fold 1** | 96.67% |
@@ -26,11 +24,21 @@ To ensure rigorous performance evaluation without data leakage, the **Vision Tra
 
 ![10-Fold CV Plot](results/vit_10fold_cv_accuracy.png)
 
+### Aggregated 10-Fold Confusion Matrix (ViT)
+![ViT 10-Fold Matrix](results/vit_10fold_confusion_matrix.png)
+
 ---
 
-## 📈 Aggregated 10-Fold Confusion Matrix
+## 📈 Baseline Architecture Confusion Matrices
 
-![ViT 10-Fold Matrix](results/vit_10fold_confusion_matrix.png)
+### 1. Vision Transformer (ViT)
+![ViT Baseline Matrix](results/vit_baseline_confusion_matrix.png)
+
+### 2. ResNet50 (CNN)
+![CNN Baseline Matrix](results/cnn_baseline_confusion_matrix.png)
+
+### 3. EfficientNet (Hybrid)
+![Hybrid Baseline Matrix](results/hybrid_baseline_confusion_matrix.png)
 
 ---
 
